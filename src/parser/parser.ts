@@ -7,6 +7,8 @@ import { IntervalType, OffsetToken, SourceLocation, Token } from "./tokenizer";
 
 type Header = Partial<Omit<Workout, "intervals">>;
 
+const FTP = 280; // TODO load ftp from headers
+
 const tokenToString = (token: Token | undefined): string => {
   return token ? `[${token.type} ${token.value}]` : "EOF";
 };
@@ -151,6 +153,9 @@ const parseIntervalParams = (type: IntervalType, tokens: Token[], loc: SourceLoc
       tokens.shift();
     } else if (token.type === "cadence") {
       cadence = token.value;
+      tokens.shift();
+    } else if (token.type === "watts") {
+      intensity = new ConstantIntensity(token.value / FTP);
       tokens.shift();
     } else if (token.type === "intensity") {
       intensity = new ConstantIntensity(token.value);

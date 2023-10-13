@@ -1,0 +1,64 @@
+Name: 2023-10-01 Max Reps
+Author: Pearce Kieser   
+Description:
+    20 mins loosen up -
+
+    5 mins build from 100 - 300 watts -
+    5 mins easy
+
+    3:00 at 90%
+    3:00 easy
+    2:00 at 95%
+    2:00 easy
+    1:00 MAX
+    3:00 recovery
+    4x
+
+    easy till 90
+
+    Do your best to be flat throughout the MAX reps - a little bit of control early in the set can go a long way towards overall power.
+
+
+FreeRide: 20:00
+  @ 00:01 Warm up
+
+Ramp: 5:00 36%..110%
+Interval: 05:00 65%
+
+Interval: 3:00 90%
+Interval: 03:00 65%
+Interval: 2:00 95%
+Interval: 02:00 65%
+FreeRide: 1:00
+  @ 00:01 Max effort
+FreeRide: 3:00
+  @ 00:01 Recovery
+
+Interval: 3:00 90%
+Interval: 03:00 65%
+Interval: 2:00 95%
+Interval: 02:00 65%
+FreeRide: 1:00
+  @ 00:01 Max effort
+FreeRide: 3:00
+  @ 00:01 Recovery
+
+Interval: 3:00 90%
+Interval: 03:00 65%
+Interval: 2:00 95%
+Interval: 02:00 65%
+FreeRide: 1:00
+  @ 00:01 Max effort
+FreeRide: 3:00
+  @ 00:01 Recovery
+
+Interval: 3:00 90%
+Interval: 03:00 65%
+Interval: 2:00 95%
+Interval: 02:00 65%
+FreeRide: 1:00
+  @ 00:01 Max effort
+FreeRide: 3:00
+  @ 00:01 Recovery
+
+Cooldown: 5:00 70%..45%

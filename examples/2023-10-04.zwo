@@ -1,0 +1,51 @@
+
+> zwiftout@2.3.0 start
+> node bin/zwiftout.js examples/2023-10-04.txt
+
+<workout_file>
+  <name>2023-10-04 Long builds</name>
+  <author>Pearce Kieser</author>
+  <description>10 mins loosen up
+
+3x
+5 mins smooth
+5 mins moderate
+5 mins hard
+
+5 mins cool down</description>
+  <tags>
+  </tags>
+  <sportType>bike</sportType>
+  <workout>
+    <FreeRide Duration="600">
+      <textevent timeoffset="1" message="Warm up">
+      </textevent>
+    </FreeRide>
+    <IntervalsT Repeat="4" OnDuration="300" OnPower="0.8" OffDuration="300" OffPower="0.8">
+      <textevent timeoffset="1" message="smooth">
+      </textevent>
+      <textevent timeoffset="301" message="moderate">
+      </textevent>
+      <textevent timeoffset="601" message="hard">
+      </textevent>
+      <textevent timeoffset="901" message="smooth">
+      </textevent>
+      <textevent timeoffset="1201" message="moderate">
+      </textevent>
+      <textevent timeoffset="1501" message="hard">
+      </textevent>
+      <textevent timeoffset="1801" message="smooth">
+      </textevent>
+      <textevent timeoffset="2101" message="moderate">
+      </textevent>
+    </IntervalsT>
+    <FreeRide Duration="300">
+      <textevent timeoffset="1" message="hard">
+      </textevent>
+    </FreeRide>
+    <FreeRide Duration="600">
+      <textevent timeoffset="1" message="Cool down">
+      </textevent>
+    </FreeRide>
+  </workout>
+</workout_file>

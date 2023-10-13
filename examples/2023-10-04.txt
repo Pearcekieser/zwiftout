@@ -1,0 +1,38 @@
+Name: 2023-10-04 Long builds
+Author: Pearce Kieser   
+Description:
+    10 mins loosen up
+
+    3x
+    5 mins smooth
+    5 mins moderate
+    5 mins hard
+
+    5 mins cool down
+
+FreeRide: 10:00
+  @ 00:01 Warm up
+
+FreeRide: 5:00
+  @ 00:01 smooth
+FreeRide: 5:00
+  @ 0:01 moderate
+FreeRide: 5:00
+  @ 0:01 hard
+
+FreeRide: 5:00
+  @ 00:01 smooth
+FreeRide: 5:00
+  @ 0:01 moderate
+FreeRide: 5:00
+  @ 0:01 hard
+
+FreeRide: 5:00
+  @ 00:01 smooth
+FreeRide: 5:00
+  @ 0:01 moderate
+FreeRide: 5:00
+  @ 0:01 hard
+
+FreeRide: 10:00
+  @ 00:01 Cool down

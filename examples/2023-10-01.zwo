@@ -1,0 +1,103 @@
+
+> zwiftout@2.3.0 start
+> node bin/zwiftout.js examples/2023-10-01.txt
+
+<workout_file>
+  <name>2023-10-01 Max Reps</name>
+  <author>Pearce Kieser</author>
+  <description>20 mins loosen up -
+
+5 mins build from 100 - 300 watts -
+5 mins easy
+
+3:00 at 90%
+3:00 easy
+2:00 at 95%
+2:00 easy
+1:00 MAX
+3:00 recovery
+4x
+
+easy till 90
+
+Do your best to be flat throughout the MAX reps - a little bit of control early in the set can go a long way towards overall power.</description>
+  <tags>
+  </tags>
+  <sportType>bike</sportType>
+  <workout>
+    <FreeRide Duration="1200">
+      <textevent timeoffset="1" message="Warm up">
+      </textevent>
+    </FreeRide>
+    <Ramp Duration="300" PowerLow="0.36" PowerHigh="1.1">
+    </Ramp>
+    <SteadyState Duration="300" Power="0.65">
+    </SteadyState>
+    <SteadyState Duration="180" Power="0.9">
+    </SteadyState>
+    <SteadyState Duration="180" Power="0.65">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.95">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.65">
+    </SteadyState>
+    <FreeRide Duration="60">
+      <textevent timeoffset="1" message="Max effort">
+      </textevent>
+    </FreeRide>
+    <FreeRide Duration="180">
+      <textevent timeoffset="1" message="Recovery">
+      </textevent>
+    </FreeRide>
+    <SteadyState Duration="180" Power="0.9">
+    </SteadyState>
+    <SteadyState Duration="180" Power="0.65">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.95">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.65">
+    </SteadyState>
+    <FreeRide Duration="60">
+      <textevent timeoffset="1" message="Max effort">
+      </textevent>
+    </FreeRide>
+    <FreeRide Duration="180">
+      <textevent timeoffset="1" message="Recovery">
+      </textevent>
+    </FreeRide>
+    <SteadyState Duration="180" Power="0.9">
+    </SteadyState>
+    <SteadyState Duration="180" Power="0.65">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.95">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.65">
+    </SteadyState>
+    <FreeRide Duration="60">
+      <textevent timeoffset="1" message="Max effort">
+      </textevent>
+    </FreeRide>
+    <FreeRide Duration="180">
+      <textevent timeoffset="1" message="Recovery">
+      </textevent>
+    </FreeRide>
+    <SteadyState Duration="180" Power="0.9">
+    </SteadyState>
+    <SteadyState Duration="180" Power="0.65">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.95">
+    </SteadyState>
+    <SteadyState Duration="120" Power="0.65">
+    </SteadyState>
+    <FreeRide Duration="60">
+      <textevent timeoffset="1" message="Max effort">
+      </textevent>
+    </FreeRide>
+    <FreeRide Duration="180">
+      <textevent timeoffset="1" message="Recovery">
+      </textevent>
+    </FreeRide>
+    <Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45">
+    </Cooldown>
+  </workout>
+</workout_file>

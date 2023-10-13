@@ -32,7 +32,7 @@ export type TextToken = {
   loc: SourceLocation;
 };
 export type NumberToken = {
-  type: "intensity" | "cadence" | "duration";
+  type: "intensity" | "cadence" | "duration" | "watts";
   value: number;
   loc: SourceLocation;
 };
@@ -97,6 +97,9 @@ const tokenizeValueParam = (text: string, loc: SourceLocation): Token => {
   }
   if (/^[0-9]+%$/.test(text)) {
     return { type: "intensity", value: toFraction(toInteger(text)), loc };
+  }
+  if (/^[0-9]+W$/.test(text)) {
+    return { type: "watts", value: toInteger(text), loc };
   }
   throw new ParseError(`Unrecognized interval parameter "${text}"`, loc);
 };

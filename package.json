@@ -13,7 +13,7 @@
     "lint:js": "eslint 'src/**/*'",
     "test": "jest src/ test/",
     "test:watch": "jest src/ test/ --watch",
-    "start": "node bin/zwiftout.js",
+    "start": "npm run build; node bin/zwiftout-express.js",
     "format:js": "prettier --write src/",
     "build": "tsc --project tsconfig.release.json",
     "prepublish": "yarn build"
@@ -21,7 +21,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "zwiftout": "bin/zwiftout.js"
+    "zwiftout": "bin/zwiftout-express.js"
   },
   "dependencies": {
     "argparse": "^2.0.1",

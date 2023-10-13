@@ -1,0 +1,24 @@
+<workout_file>
+  <name>2023-10-13 - 90</name>
+  <author>Pearce Kieser</author>
+  <description>30 mins loosen up - prepare based on how you feel.
+
+7:00 just below threshold - 150 - 155 heart rate
+5:00 recovery
+4x
+
+easy till 90</description>
+  <tags>
+  </tags>
+  <sportType>bike</sportType>
+  <workout>
+    <FreeRide Duration="1800">
+      <textevent timeoffset="1" message="Warm up">
+      </textevent>
+    </FreeRide>
+    <IntervalsT Repeat="4" OnDuration="420" OnPower="0.7" OffDuration="300" OffPower="0.62">
+    </IntervalsT>
+    <Cooldown Duration="720" PowerLow="0.7" PowerHigh="0.45">
+    </Cooldown>
+  </workout>
+</workout_file>

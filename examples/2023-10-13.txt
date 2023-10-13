@@ -1,0 +1,24 @@
+Name: 2023-10-13 - 90
+Author: Pearce Kieser   
+Description:
+    30 mins loosen up - prepare based on how you feel.
+
+    7:00 just below threshold - 150 - 155 heart rate
+    5:00 recovery
+    4x
+
+    easy till 90
+
+FreeRide: 30:00
+  @ 00:01 Warm up
+
+Interval: 7:00 70%
+Interval: 5:00 62%
+Interval: 7:00 70%
+Interval: 5:00 62%
+Interval: 7:00 70%
+Interval: 5:00 62%
+Interval: 7:00 70%
+Interval: 5:00 62%
+
+Cooldown: 12:00 70%..45%
